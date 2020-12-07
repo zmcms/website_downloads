@@ -9,7 +9,11 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Zmcms\\WebsiteDownloads\\": "src/"
+			"Zmcms\\WebsiteDownloads\\": "src/",
+			"Zmcms\\WebsiteDownloads\\Backend\\": "src/backend",
+			"Zmcms\\WebsiteDownloads\\Config\\": "src/config",
+			"Zmcms\\WebsiteDownloads\\Frontend\\": "src/frontend",
+			"Zmcms\\WebsiteDownloads\\Migrations\\": "src/migrations"
 		},
 		"files": ["src/helpers.php"]
 		},
