@@ -9,11 +9,16 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Zmcms\\WebsiteDownloads\\": "src/",
-			"Zmcms\\WebsiteDownloads\\Backend\\": "src/backend",
-			"Zmcms\\WebsiteDownloads\\Config\\": "src/config",
-			"Zmcms\\WebsiteDownloads\\Frontend\\": "src/frontend",
-			"Zmcms\\WebsiteDownloads\\Migrations\\": "src/migrations"
+			"Zmcms\\WebsiteDownloads\\Backend\\Controllers\\":"src/backend/controllers/",
+			"Zmcms\\WebsiteDownloads\\Backend\\Db\\":"src/backend/db/",
+			"Zmcms\\WebsiteDownloads\\Backend\\Middleware\\":"src/backend/middleware/",
+			"Zmcms\\WebsiteDownloads\\Backend\\Routes\\":"src/backend/routes/",
+			"Zmcms\\WebsiteDownloads\\Frontend\\Controllers\\":"src/frontend/controllers/",
+			"Zmcms\\WebsiteDownloads\\Frontend\\Db\\":"src/frontend/db/",
+			"Zmcms\\WebsiteDownloads\\Frontend\\Middleware\\":"src/frontend/middleware/",
+			"Zmcms\\WebsiteDownloads\\Frontend\\Routes\\":"src/frontend/routes/",
+			"Zmcms\\WebsiteDownloads\\Migrations\\":"src/migrations/",
+			"Zmcms\\WebsiteDownloads\\":"src/"
 		},
 		"files": ["src/helpers.php"]
 		},
